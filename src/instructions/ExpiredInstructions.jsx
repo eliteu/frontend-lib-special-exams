@@ -7,13 +7,13 @@ const ExpiredExamInstructions = () => (
     <h3 className="h3" data-testid="expired-exam-instructions-title">
       <FormattedMessage
         id="exam.ExpiredExamInstructions.title"
-        defaultMessage="The due date for this exam has passed"
+        defaultMessage="已超过此考试的截止日期"
       />
     </h3>
     <p>
       <FormattedMessage
         id="exam.ExpiredExamInstructions.body"
-        defaultMessage="Because the due date has passed, you are no longer able to take this exam."
+        defaultMessage="已超过截止日期，您无法进行考试。"
       />
     </p>
   </Container>
