@@ -14,28 +14,28 @@ const VerifiedOnboardingExamInstructions = () => {
       <h3 className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
           id="exam.VerifiedOnboardingExamInstructions.title"
-          defaultMessage="Your onboarding profile was reviewed successfully"
+          defaultMessage="您的入职资料已成功审核"
         />
       </h3>
       <p>
         <FormattedMessage
           id="exam.VerifiedOnboardingExamInstructions.text"
-          defaultMessage={'Your profile has been established, and you\'re ready '
-          + 'to take proctored exams in this course'}
+          defaultMessage="您的个人资料已建立，您已准备好参加本课程的监考考试。"
         />
       </p>
       <p>
+
+        <FormattedMessage
+          id="exam.VerifiedOnboardingExamInstructions.helpText2"
+          defaultMessage="如果您有疑问。"
+        />
         <FormattedMessage
           id="exam.VerifiedOnboardingExamInstructions.helpText1"
-          defaultMessage="Please contact "
+          defaultMessage="请联系 "
         />
         <MailtoLink to={integrationSpecificEmail}>
           {integrationSpecificEmail}
         </MailtoLink>
-        <FormattedMessage
-          id="exam.VerifiedOnboardingExamInstructions.helpText2"
-          defaultMessage=" if you have questions."
-        />
       </p>
     </div>
   );

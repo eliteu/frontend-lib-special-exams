@@ -38,7 +38,7 @@ const PrerequisitesProctoredExamInstructions = ({ skipProctoredExam }) => {
         <div className="h3" data-testid="exam-instructions-title">
           <FormattedMessage
             id="exam.EntranceProctoredExamInstructions.title"
-            defaultMessage="This exam is proctored"
+            defaultMessage="需开启监考模式"
           />
         </div>
         {child}

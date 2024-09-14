@@ -12,26 +12,26 @@ const ErrorPracticeExamInstructions = () => {
       <h3 className="h3">
         <FormattedMessage
           id="exam.ErrorPracticeExamInstructions.title"
-          defaultMessage="There was a problem with your practice proctoring session"
+          defaultMessage="您的模拟监考环节出现问题"
         />
       </h3>
       <h4 className="h4">
         <FormattedMessage
           id="exam.ErrorPracticeExamInstructions.title2"
-          defaultMessage="Your practice proctoring results: "
+          defaultMessage="您的模拟监考结果："
         />
         <span className="font-weight-bold">
           <FormattedMessage
             id="exam.ErrorPracticeExamInstructions.title2.result"
-            defaultMessage="Unsatisfactory"
+            defaultMessage="不满意"
           />
         </span>
       </h4>
       <p className="mb-0">
         <FormattedMessage
           id="exam.ErrorPracticeExamInstructions.text"
-          defaultMessage={'Your proctoring session ended before you completed this practice exam. '
-          + 'You can retry this practice exam if you had problems setting up the online proctoring software.'}
+          defaultMessage={'您的监考课程在您完成本次模拟考试之前就结束了。'
+          + '如果您在设置在线监考软件时遇到问题，可以重试此模拟考试。'}
         />
       </p>
       <Button
@@ -41,7 +41,7 @@ const ErrorPracticeExamInstructions = () => {
       >
         <FormattedMessage
           id="exam.ErrorOnboardingExamInstructions.retryExamButton"
-          defaultMessage="Retry my exam"
+          defaultMessage="重试我的考试"
         />
       </Button>
     </div>

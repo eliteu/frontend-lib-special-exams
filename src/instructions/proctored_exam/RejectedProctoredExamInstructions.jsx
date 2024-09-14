@@ -10,14 +10,14 @@ const RejectedProctoredExamInstructions = () => {
       <h3 className="h3" data-testid="proctored-exam-instructions-title">
         <FormattedMessage
           id="exam.RejectedProctoredExamInstructions.title"
-          defaultMessage="Your proctoring session was reviewed, but did not pass all requirements"
+          defaultMessage="您的监考课程已经过审核，但未通过所有要求"
         />
       </h3>
       <p className="mb-0">
         <FormattedMessage
           id="exam.RejectedProctoredExamInstructions.description"
-          defaultMessage={'If you have questions about the status of '
-          + 'your proctoring session results, contact {platformName} Support.'}
+          defaultMessage={'如果您对监考会话结果的状态有疑问，'
+          + ' 请联系 {platformName} 支持。'}
           values={{ platformName }}
         />
       </p>

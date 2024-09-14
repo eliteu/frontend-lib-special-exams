@@ -12,14 +12,14 @@ const SubmittedPracticeExamInstructions = () => {
       <h3 className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
           id="exam.SubmittedOnboardingExamInstructions.title"
-          defaultMessage="You have submitted this practice proctored exam"
+          defaultMessage="您已提交此模拟监考考试"
         />
       </h3>
       <p>
         <FormattedMessage
           id="exam.SubmittedProctoredExamInstructions.text1"
-          defaultMessage={'Practice exams do not affect your grade. You have '
-          + 'completed this practice exam and can continue with your course work.'}
+          defaultMessage={'练习考试不会影响您的成绩。'
+          + '您已完成本次模拟考试，可以继续您的课程作业。'}
         />
       </p>
       <Button
@@ -29,7 +29,7 @@ const SubmittedPracticeExamInstructions = () => {
       >
         <FormattedMessage
           id="exam.SubmittedPracticeExamInstructions.retryExamButton"
-          defaultMessage="Retry my exam"
+          defaultMessage="重试我的考试"
         />
       </Button>
     </div>

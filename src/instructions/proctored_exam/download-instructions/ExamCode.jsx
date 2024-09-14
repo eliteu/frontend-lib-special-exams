@@ -30,7 +30,7 @@ const ExamCode = ({ code }) => {
       <Form.Label>
         <FormattedMessage
           id="exam.DefaultDownloadSoftwareProctoredExamInstructions.exam-code-text"
-          defaultMessage="Copy this unique exam code. You will be prompted to paste this code later before you start the exam."
+          defaultMessage="复制这个独特的考试代码。稍后在开始考试之前，系统会提示您粘贴此代码。"
         />
       </Form.Label>
       <Form.Control

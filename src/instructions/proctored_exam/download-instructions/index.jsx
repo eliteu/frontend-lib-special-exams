@@ -119,7 +119,7 @@ const DownloadSoftwareProctoredExamInstructions = ({ intl, skipProctoredExam }) 
         <div className="h3" data-testid="exam-instructions-title">
           <FormattedMessage
             id="exam.DownloadSoftwareProctoredExamInstructions.title"
-            defaultMessage="Set up and start your proctored exam."
+            defaultMessage="设置并开始您的监考考试。"
           />
         </div>
         { providerInstructions() }
@@ -134,15 +134,13 @@ const DownloadSoftwareProctoredExamInstructions = ({ intl, skipProctoredExam }) 
             <div className="h4">
               <FormattedMessage
                 id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step3.title"
-                defaultMessage="Step 3."
+                defaultMessage="步骤三"
               />
             </div>
             <p>
               <FormattedMessage
                 id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step3.body"
-                defaultMessage={'For security and exam integrity reasons, '
-                + 'we ask you to sign in to your edX account. Then we will '
-                + 'direct you to the RPNow proctoring experience.'}
+                defaultMessage="出于安全和考试完整性的原因，我们要求您登录您的 edX 帐户。然后我们将引导您体验 RPNow 监考体验。"
               />
             </p>
           </div>

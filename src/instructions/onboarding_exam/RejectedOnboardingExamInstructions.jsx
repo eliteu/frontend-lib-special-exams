@@ -13,21 +13,21 @@ const RejectedOnboardingExamInstructions = () => {
       <h3 className="h3" data-testid="rejected-onboarding-title">
         <FormattedMessage
           id="exam.RejectedOnboardingExamInstructions.title"
-          defaultMessage="Your onboarding session was reviewed, but did not pass all requirements"
+          defaultMessage="您的入职培训已通过审核，但未通过所有要求"
         />
       </h3>
       {integrationSpecificEmail && (
         <p data-testid="integration-email-contact">
           <FormattedMessage
             id="exam.RejectedOnboardingExamInstructions.text1"
-            defaultMessage="Please contact "
+            defaultMessage="请联系 "
           />
           <MailtoLink to={integrationSpecificEmail}>
             {integrationSpecificEmail}
           </MailtoLink>
           <FormattedMessage
             id="exam.RejectedOnboardingExamInstructions.text2"
-            defaultMessage=' if you have questions. You may retake this onboarding exam by clicking "Retry my exam".'
+            defaultMessage=' 如果您有疑问。您可以通过单击“重试我的考试”来重新参加此入职考试。'
           />
         </p>
       )}
@@ -38,7 +38,7 @@ const RejectedOnboardingExamInstructions = () => {
       >
         <FormattedMessage
           id="exam.RejectedOnboardingExamInstructions.resetExamButton"
-          defaultMessage="Retry my exam"
+          defaultMessage="重试我的考试"
         />
       </Button>
     </>

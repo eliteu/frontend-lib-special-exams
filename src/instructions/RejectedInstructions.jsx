@@ -29,7 +29,7 @@ const RejectedExamInstructions = ({ examType }) => {
           <p className="ml-3 mb-3 text-gray-500">
             <FormattedMessage
               id="exam.RejectedProctoredExamInstructions.note"
-              defaultMessage="If you have concerns about your proctoring session results, contact your course team."
+              defaultMessage="如果您对监考课程结果有疑问，请联系您的课程团队。"
             />
           </p>
         </div>

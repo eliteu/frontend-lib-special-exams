@@ -11,13 +11,13 @@ const SubmittedTimedExamInstructions = () => {
         ? (
           <FormattedMessage
             id="exam.submittedExamInstructions.overtimeTitle"
-            defaultMessage="The time allotted for this exam has expired. Your exam has been submitted and any work you completed will be graded."
+            defaultMessage="分配给本次考试的时间已过。您的考试已提交并且您已完成所有作业将会被评分。"
           />
         )
         : (
           <FormattedMessage
             id="exam.submittedExamInstructions.title"
-            defaultMessage="您已提交定时考试。"
+            defaultMessage="您的定时考试已提交。"
           />
         )}
     </h3>

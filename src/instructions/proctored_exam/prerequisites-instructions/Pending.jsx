@@ -8,27 +8,25 @@ const PendingPrerequisitesProctoredExamInstructions = ({ allowProctoringOptOut, 
     <p className="pb-2" data-testid="pending-prerequisites">
       <FormattedMessage
         id="exam.PendingPrerequisitesProctoredExamInstructions.text1"
-        defaultMessage={'You have not completed the prerequisites for '
-        + 'this exam. All requirements must be satisfied before you '
-        + 'can take this proctored exam.'}
+        defaultMessage="您尚未完成本次考试的先决条件。您必须满足所有要求才能参加此监考考试。"
       />
     </p>
     <p>
       <FormattedMessage
         id="exam.PendingPrerequisitesProctoredExamInstructions.text2"
-        defaultMessage="The following prerequisites are in a"
+        defaultMessage="以下先修条件任务为"
       />
       &nbsp;
       <strong>
         <FormattedMessage
           id="exam.PendingPrerequisitesProctoredExamInstructions.text3"
-          defaultMessage="pending"
+          defaultMessage="待处理"
         />
       </strong>
       &nbsp;
       <FormattedMessage
         id="exam.PendingPrerequisitesProctoredExamInstructions.text4"
-        defaultMessage="state and must be successfully completed before you can proceed:"
+        defaultMessage="状态， 请务必先成功完成任务再继续操作下一步："
       />
     </p>
     <ol style={{ listStyleType: 'disc' }}>
@@ -43,8 +41,7 @@ const PendingPrerequisitesProctoredExamInstructions = ({ allowProctoringOptOut, 
     <p>
       <FormattedMessage
         id="exam.PendingPrerequisitesProctoredExamInstructions.text5"
-        defaultMessage={'You can take this exam with proctoring only '
-        + 'when all prerequisites-instructions have been successfully completed.'}
+        defaultMessage="仅当成功完成所有先决条件后，您才能参加有监考的考试。"
       />
     </p>
     {allowProctoringOptOut && <SkipProctoredExamButton handleClick={skipProctoredExam} />}

@@ -15,14 +15,13 @@ const SkipProctoredExamInstruction = ({ cancelSkipProctoredExam }) => {
         <p data-testid="proctored-exam-instructions-title">
           <FormattedMessage
             id="exam.skipProctoredExamInstructions.text1"
-            defaultMessage="Are you sure you want to take this exam without proctoring?"
+            defaultMessage="您确定关闭监考模式？"
           />
         </p>
         <p>
           <FormattedMessage
             id="exam.skipProctoredExamInstructions.text2"
-            defaultMessage={'If you take this exam without proctoring, you will not be eligible for '
-            + 'course credit or the MicroMasters credential if either applies to this course.'}
+            defaultMessage={'如果您在没有监考的情况下参加此考试，您将没有资格获得课程学分或 MicroMasters 证书（如果其中任何一项适用于本课程）。'}
           />
         </p>
         <p className="mb-0">
@@ -34,7 +33,7 @@ const SkipProctoredExamInstruction = ({ cancelSkipProctoredExam }) => {
           >
             <FormattedMessage
               id="exam.entranceExamInstructions.skipConfirmExamButtonText1"
-              defaultMessage="Continue Exam Without Proctoring"
+              defaultMessage="关闭监考模式"
             />
           </Button>
           <Button
@@ -45,7 +44,7 @@ const SkipProctoredExamInstruction = ({ cancelSkipProctoredExam }) => {
           >
             <FormattedMessage
               id="exam.entranceExamInstructions.skipCancelExamButtonText"
-              defaultMessage="Go Back"
+              defaultMessage="返回"
             />
           </Button>
         </p>

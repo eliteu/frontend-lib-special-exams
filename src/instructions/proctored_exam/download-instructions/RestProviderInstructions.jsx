@@ -9,10 +9,7 @@ const RestProviderInstructions = ({
     <p>
       <FormattedMessage
         id="exam.DownloadSoftwareProctoredExamInstructions.text1"
-        defaultMessage={'Note: As part of the proctored exam setup, you '
-        + 'will be asked to verify your identity. Before you begin, make '
-        + 'sure you are on a computer with a webcam, and that you have a '
-        + 'valid form of photo identification such as a driver’s license or passport.'}
+        defaultMessage="注意：作为监考考试设置的一部分，系统会询问您以验证您的身份。在开始之前，请确保您是在带有网络摄像头的计算机上，并且您有有效的表格带照片的身份证明，例如驾驶执照或护照。"
       />
     </p>
     <ol>
@@ -26,12 +23,11 @@ const RestProviderInstructions = ({
       <p>
         <FormattedMessage
           id="exam.DownloadSoftwareProctoredExamInstructions.supportText"
-          defaultMessage={'If you have issues relating to proctoring, you can contact '
-          + '{providerName} technical support by emailing {supportEmail} or by calling {supportPhone}.'}
+          defaultMessage={'如果您有与监考相关的问题，您可以通过发送电子邮件至 {provider_tech_support_email} 或致电 {provider_tech_support_phone } 联系 {provider_name} 技术支持。'}
           values={{
-            providerName,
             supportEmail,
             supportPhone,
+            providerName,
           }}
         />
       </p>

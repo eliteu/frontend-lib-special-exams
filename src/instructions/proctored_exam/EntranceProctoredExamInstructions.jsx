@@ -18,13 +18,13 @@ const EntranceProctoredExamInstructions = ({ skipProctoredExam }) => {
           <div className="h3" data-testid="proctored-exam-instructions-title">
             <FormattedMessage
               id="exam.ReadyToResumeProctoredExamInstructions.title"
-              defaultMessage="Your exam is ready to be resumed."
+              defaultMessage="您的考试已准备好恢复。"
             />
           </div>
           <p>
             <FormattedMessage
               id="exam.ReadyToResumeProctoredExamInstructions.text"
-              defaultMessage="You will have {totalTime} to complete your exam."
+              defaultMessage="您将获得 {total_time} 来完成考试。"
               values={{ totalTime }}
             />
           </p>
@@ -33,21 +33,20 @@ const EntranceProctoredExamInstructions = ({ skipProctoredExam }) => {
         <div className="h3" data-testid="proctored-exam-instructions-title">
           <FormattedMessage
             id="exam.EntranceProctoredExamInstructions.title"
-            defaultMessage="This exam is proctored"
+            defaultMessage="需开启监考模式"
           />
         </div>
       )}
       <p>
         <FormattedMessage
           id="exam.EntranceProctoredExamInstructions.text1"
-          defaultMessage={'To be eligible for credit or the program credential associated with this course, '
-          + 'you must pass the proctoring review for this exam.'}
+          defaultMessage="要获得与本课程相关的学分或课程证书的资格，您必须通过本次考试的监考审核。"
         />
       </p>
       <p className="mt-4 pl-md-4">
         <FormattedMessage
           id="exam.EntranceProctoredExamInstructions.text2"
-          defaultMessage="You will be guided through steps to set up online proctoring software and verify your identity."
+          defaultMessage="我们将指导您完成设置在线监考软件并验证您的身份的步骤。"
         />
       </p>
       <p className="pl-md-4">
@@ -58,7 +57,7 @@ const EntranceProctoredExamInstructions = ({ skipProctoredExam }) => {
         >
           <FormattedMessage
             id="exam.startExamInstructions.startExamButtonText"
-            defaultMessage="Continue to my proctored exam."
+            defaultMessage="继续参加我监考的考试。"
           />
         </Button>
       </p>

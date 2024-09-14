@@ -91,7 +91,7 @@ const ExamTimerBlock = injectIntl(({
                     <Alert.Link onClick={showLess}>
                       <FormattedMessage
                         id="exam.examTimer.showLessLink"
-                        defaultMessage="Show less"
+                        defaultMessage="显示更少"
                       />
                     </Alert.Link>
                   </span>
@@ -100,7 +100,7 @@ const ExamTimerBlock = injectIntl(({
                   <Alert.Link onClick={showMore}>
                     <FormattedMessage
                       id="exam.examTimer.showMoreLink"
-                      defaultMessage="Show more"
+                      defaultMessage="显示更多"
                     />
                   </Alert.Link>
                 )
@@ -110,7 +110,7 @@ const ExamTimerBlock = injectIntl(({
             className="d-flex align-items-center flex-shrink-0 ml-lg-3 mt-2 mt-lg-0"
             aria-label={intl.formatMessage({
               id: 'exam.aria.examTimerAndEndExamButton',
-              defaultMessage: 'Exam timer and end exam button',
+              defaultMessage: '检查计时器和结束检查按钮',
             })}
           >
 
@@ -118,7 +118,7 @@ const ExamTimerBlock = injectIntl(({
               <Button data-testid="end-button" className="mr-3" variant="outline-primary" onClick={handleEndExamClick}>
                 <FormattedMessage
                   id="exam.examTimer.endExamBtn"
-                  defaultMessage="End My Exam"
+                  defaultMessage="结束我的考试"
                 />
               </Button>
             )}

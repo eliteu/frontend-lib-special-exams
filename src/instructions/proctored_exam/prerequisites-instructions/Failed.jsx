@@ -15,13 +15,13 @@ const FailedPrerequisitesProctoredExamInstructions = (props) => {
       <p className="pb-2" data-testid="failed-prerequisites">
         <FormattedMessage
           id="exam.FailedPrerequisitesProctoredExamInstructions.text1"
-          defaultMessage="You did not satisfy the requirements for taking this exam with proctoring."
+          defaultMessage="您不符合参加本次监考考试的要求。"
         />
       </p>
       <p>
         <FormattedMessage
           id="exam.FailedPrerequisitesProctoredExamInstructions.text2"
-          defaultMessage="You did not satisfy the following prerequisites:"
+          defaultMessage="您不满足下列先修条件："
         />
       </p>
       <ol style={{ listStyleType: 'disc' }}>
@@ -38,7 +38,7 @@ const FailedPrerequisitesProctoredExamInstructions = (props) => {
           <p>
             <FormattedMessage
               id="exam.startExamInstructions.skipExamText"
-              defaultMessage="Due to unsatisfied prerequisites, you can only take this exam without proctoring."
+              defaultMessage="您不满足先修条件，无法开启监考模式。"
             />
           </p>
           <SkipProctoredExamButton handleClick={skipProctoredExam} />
@@ -47,7 +47,7 @@ const FailedPrerequisitesProctoredExamInstructions = (props) => {
       <p>
         <FormattedMessage
           id="exam.FailedPrerequisitesProctoredExamInstructions.text3"
-          defaultMessage="If you have questions about the status of your requirements, contact {platformName} Support."
+          defaultMessage="如果您对监考会话结果的状态有疑问，请联系 {platform_name} 支持。"
           values={{ platformName }}
         />
       </p>

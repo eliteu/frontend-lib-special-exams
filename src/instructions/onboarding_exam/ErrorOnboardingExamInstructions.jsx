@@ -12,14 +12,14 @@ const ErrorOnboardingExamInstructions = () => {
       <h3 className="h3">
         <FormattedMessage
           id="exam.ErrorOnboardingExamInstructions.title"
-          defaultMessage="Error: There was a problem with your onboarding session"
+          defaultMessage="错误：您的入职会话出现问题"
         />
       </h3>
       <p className="mb-0">
         <FormattedMessage
           id="exam.ErrorOnboardingExamInstructions.text"
-          defaultMessage={'Your proctoring session ended before you completed this '
-          + 'onboarding exam. You should retry this onboarding exam'}
+          defaultMessage={'您的监考课程在您完成入职考试之前就结束了。'
+          + '您应该重试此入职考试。'}
         />
       </p>
       <Button
@@ -29,7 +29,7 @@ const ErrorOnboardingExamInstructions = () => {
       >
         <FormattedMessage
           id="exam.ErrorOnboardingExamInstructions.retryExamButton"
-          defaultMessage="Retry my exam"
+          defaultMessage="重试我的考试"
         />
       </Button>
     </div>

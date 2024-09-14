@@ -12,7 +12,7 @@ const SkipProctoredExamButton = ({ handleClick }) => (
     >
       <FormattedMessage
         id="exam.skipProctoredExamButton"
-        defaultMessage="Take this exam without proctoring."
+        defaultMessage="关闭本次考试的监考功能。"
       />
     </Button>
   </p>

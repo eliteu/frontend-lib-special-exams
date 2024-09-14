@@ -7,7 +7,7 @@ const UnknownAttemptStatusError = () => (
     <Alert.Heading>
       <FormattedMessage
         id="exam.defaultError"
-        defaultMessage="A system error has occurred with your exam. Please reach out to support for assistance."
+        defaultMessage="您的考试发生了系统错误。请联系支持人员寻求帮助。"
       />
     </Alert.Heading>
   </Alert>

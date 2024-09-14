@@ -34,53 +34,52 @@ const ReadyToStartProctoredExamInstructions = () => {
         <div className="h3" data-testid="exam-instructions-title">
           <FormattedMessage
             id="exam.ReadyToStartProctoredExamInstructions.title1"
-            defaultMessage="Important"
+            defaultMessage="重要的"
           />
         </div>
         <ul>
           <li data-testid="duration-text">
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text1"
-              defaultMessage="You have {examDuration} to complete this exam."
+              defaultMessage="您有 {examDuration}s 来完成本次考试。"
               values={{ examDuration }}
             />
           </li>
           <li>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text2"
-              defaultMessage="Once you start the exam, you cannot stop the timer."
+              defaultMessage="一旦开始考试，就无法停止计时器。"
             />
           </li>
           <li>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text3"
-              defaultMessage='For all question types, you must click "submit" to complete your answer.'
+              defaultMessage='对于所有问题类型，您必须单击“提交”才能完成您的回答。'
             />
           </li>
           <li>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text4"
-              defaultMessage='If time expires before you click "End My Exam", only your submitted answers will be graded.'
+              defaultMessage='如果在您单击“结束我的考试”之前时间已到，则只会对您提交的答案进行评分。'
             />
           </li>
         </ul>
         <div className="h3">
           <FormattedMessage
             id="exam.ReadyToStartProctoredExamInstructions.title2"
-            defaultMessage="Proctored Exam Rules"
+            defaultMessage="监考考试规则"
           />
         </div>
         <p>
           <FormattedMessage
             id="exam.ReadyToStartProctoredExamInstructions.text5"
-            defaultMessage="You must adhere to the following rules while you complete this exam."
+            defaultMessage="完成本次考试时，您必须遵守以下规则。"
           />
           &nbsp;
           <strong>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text6"
-              defaultMessage={'If you violate these rules, you will receive a score of 0 '
-              + 'on the exam, and you will not be eligible for academic course credit.'}
+              defaultMessage={'如果您违反这些规则，您的考试成绩将为 0 分，并且您将没有资格获得学术课程学分。'}
             />
           </strong>
           <br />
@@ -92,7 +91,7 @@ const ReadyToStartProctoredExamInstructions = () => {
           >
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.rulesLink"
-              defaultMessage="{platformName} Rules for Online Proctored Exams"
+              defaultMessage="{platformName} 在线监考考试规则"
               values={{ platformName }}
             />
           </Button>
@@ -102,14 +101,13 @@ const ReadyToStartProctoredExamInstructions = () => {
             <div className="h3">
               <FormattedMessage
                 id="exam.ReadyToStartProctoredExamInstructions.title3"
-                defaultMessage="Additional Exam Rules"
+                defaultMessage="附加考试规则"
               />
             </div>
             <p>
               <FormattedMessage
                 id="exam.ReadyToStartProctoredExamInstructions.text7"
-                defaultMessage={'The following additional rules apply to this exam. '
-                + 'These rules take precedence over the Rules for Online Proctored Exams.'}
+                defaultMessage={'以下附加规则适用于本考试。这些规则优先于在线监考考试规则。'}
               />
             </p>
             <p>
@@ -126,7 +124,7 @@ const ReadyToStartProctoredExamInstructions = () => {
           { beginExamClicked && <Spinner data-testid="exam-loading-spinner" animation="border" /> }
           <FormattedMessage
             id="exam.startExamInstructions.startExamButtonText"
-            defaultMessage="Start exam"
+            defaultMessage="开始考试"
           />
         </Button>
       </Container>

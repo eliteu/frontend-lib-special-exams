@@ -15,7 +15,7 @@ const DownloadButtons = ({
       >
         <FormattedMessage
           id="exam.DownloadSoftwareProctoredExamInstructions.startSystemCheckButton"
-          defaultMessage="Start System Check"
+          defaultMessage="开始检查系统"
         />
       </Button>
     )}
@@ -27,7 +27,7 @@ const DownloadButtons = ({
     >
       <FormattedMessage
         id="exam.DownloadSoftwareProctoredExamInstructions.startExamButton"
-        defaultMessage="Start Exam"
+        defaultMessage="开始考试"
       />
     </Button>
   </>

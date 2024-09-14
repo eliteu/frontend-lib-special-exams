@@ -17,9 +17,9 @@ const ErrorProctoredExamInstructions = () => {
       return (
         <FormattedMessage
           id="exam.ErrorProctoredExamInstructions.text1"
-          defaultMessage={'A system error has occurred with your proctored exam. '
-          + 'Please reach out to your course team at {supportLink} for assistance, '
-          + 'and return to the exam once you receive further instructions.'}
+          defaultMessage={'您监考的考试出现系统错误。'
+          + '请联系您的课程团队位于 {supportLink} 寻求帮助，'
+          + '并在收到进一步指示后返回考试。'}
           values={{ supportLink: <MailtoLink to={proctoringEscalationEmail}>{proctoringEscalationEmail}</MailtoLink> }}
         />
       );
@@ -28,9 +28,9 @@ const ErrorProctoredExamInstructions = () => {
     return (
       <FormattedMessage
         id="exam.ErrorProctoredExamInstructions.text2"
-        defaultMessage={'A system error has occurred with your proctored exam. '
-        + 'Please reach out to {supportLink} for assistance, and return to '
-        + 'the exam once you receive further instructions.'}
+        defaultMessage={'您监考的考试出现系统错误。'
+        + '请联系 {supportLink} 帮助，'
+        + '并在收到进一步指示后返回考试。'}
         values={{ supportLink: <Hyperlink href={contactUsUrl} target="_blank">{platformName} Support</Hyperlink> }}
       />
     );
@@ -41,7 +41,7 @@ const ErrorProctoredExamInstructions = () => {
       <div className="h3">
         <FormattedMessage
           id="exam.ErrorProctoredExamInstructions.title"
-          defaultMessage="Error with proctored exam"
+          defaultMessage="监考考试发生错误"
         />
       </div>
       <p className="mb-0">

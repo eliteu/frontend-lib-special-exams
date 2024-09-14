@@ -8,7 +8,7 @@ const RPNowInstructions = ({ code }) => (
     <div className="h4">
       <FormattedMessage
         id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step1.title"
-        defaultMessage="Step 1."
+        defaultMessage="步骤一"
       />
     </div>
     <div>
@@ -17,38 +17,38 @@ const RPNowInstructions = ({ code }) => (
     <p>
       <FormattedMessage
         id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step1.body"
-        defaultMessage="Select the exam code, then copy it using Control + C (Windows) or Command + C (Mac)."
+        defaultMessage="选择考试代码，然后使用 Control + C (Windows) 或 Command + C (Mac) 复制它。"
       />
     </p>
     <div className="h4">
       <FormattedMessage
         id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step2.title"
-        defaultMessage="Step 2."
+        defaultMessage="步骤二"
       />
     </div>
     <p>
       <FormattedMessage
         id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step2.body1"
-        defaultMessage="Start your system check now. A new window will open for this step and you will verify your identity."
+        defaultMessage="立即开始系统检查。此步骤将打开一个新窗口，您将验证您的身份。"
       />
     </p>
     <p>
       <FormattedMessage
         id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step2.body2"
-        defaultMessage="Make sure you:"
+        defaultMessage="确保你："
       />
     </p>
     <ul>
       <li>
         <FormattedMessage
           id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step2.body3"
-          defaultMessage="Have a computer with a functioning webcam"
+          defaultMessage="拥有一台带有网络摄像头的计算机"
         />
       </li>
       <li>
         <FormattedMessage
           id="exam.DefaultDownloadSoftwareProctoredExamInstructions.step2.body4"
-          defaultMessage="Have your valid photo ID (e.g. driver's license or passport) ready"
+          defaultMessage="准备好带照片的有效身份证件（例如驾驶执照或护照）"
         />
       </li>
     </ul>

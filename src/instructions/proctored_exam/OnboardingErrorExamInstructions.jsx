@@ -23,14 +23,14 @@ const OnboardingErrorProctoredExamInstructions = () => {
             <p data-testid="onboarding_missing">
               <FormattedMessage
                 id="exam.OnboardingErrorProctoredExamInstructions.missingText"
-                defaultMessage="Please complete an onboarding exam before attempting this exam."
+                defaultMessage="请在尝试此考试之前完成入职考试。"
               />
             </p>
             {onboardingLink && (
               <Hyperlink href={onboardingLink}>
                 <FormattedMessage
                   id="exam.OnboardingErrorProctoredExamInstructions.onboardingButtonText"
-                  defaultMessage="Navigate to onboarding exam"
+                  defaultMessage="导航至入职考试"
                 />
               </Hyperlink>
             )}
@@ -41,8 +41,7 @@ const OnboardingErrorProctoredExamInstructions = () => {
           <p data-testid="onboarding_pending">
             <FormattedMessage
               id="exam.OnboardingErrorProctoredExamInstructions.pendingText"
-              defaultMessage={'Your onboarding exam is being reviewed. Before attempting this exam,'
-              + ' please allow 2+ business days for your onboarding exam to be reviewed.'}
+              defaultMessage="您的入职考试正在接受审核。在尝试此项考试之前，请预留 2 个以上工作日的时间来审核您的入职考试。"
             />
           </p>
         );
@@ -52,14 +51,14 @@ const OnboardingErrorProctoredExamInstructions = () => {
             <p data-testid="onboarding_failed">
               <FormattedMessage
                 id="exam.OnboardingErrorProctoredExamInstructions.failedText"
-                defaultMessage="Your onboarding exam failed to pass all requirements."
+                defaultMessage="您的入职考试未能通过所有要求。"
               />
             </p>
             {onboardingLink && (
               <Hyperlink href={onboardingLink}>
                 <FormattedMessage
                   id="exam.OnboardingErrorProctoredExamInstructions.onboardingButtonText"
-                  defaultMessage="Navigate to onboarding exam"
+                  defaultMessage="导航至入职考试"
                 />
               </Hyperlink>
             )}
@@ -76,7 +75,7 @@ const OnboardingErrorProctoredExamInstructions = () => {
         <div className="h3">
           <FormattedMessage
             id="exam.OnboardingErrorProctoredExamInstructions.title"
-            defaultMessage="You must complete an onboarding exam before taking this proctored exam"
+            defaultMessage="在参加此监考考试之前，您必须完成入职考试"
           />
         </div>
         {renderBody()}
@@ -84,8 +83,8 @@ const OnboardingErrorProctoredExamInstructions = () => {
           <p className="pt-2">
             <FormattedMessage
               id="exam.OnboardingErrorProctoredExamInstructions.providerInfo"
-              defaultMessage={'Proctoring for your exam is provided via {providerName}. '
-              + 'If you have questions about the status of your onboarding exam, contact '}
+              defaultMessage={'通过 {providerName}. 提供考试监考服务。'
+              + '如果您对入职考试的状态有疑问，请联系 '}
               values={{ providerName }}
             />
             <MailtoLink to={integrationSpecificEmail}>

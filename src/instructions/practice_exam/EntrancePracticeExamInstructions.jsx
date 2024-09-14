@@ -12,14 +12,13 @@ const EntrancePracticeExamInstructions = () => {
       <div className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
           id="exam.EntrancePracticeExamInstructions.title"
-          defaultMessage="Try a proctored exam"
+          defaultMessage="尝试监考考试"
         />
       </div>
       <p>
         <FormattedMessage
           id="exam.EntrancePracticeExamInstructions.text1"
-          defaultMessage={'Get familiar with proctoring for real exams later in '
-          + 'the course. This practice exam has no impact on your grade in the course.'}
+          defaultMessage="在课程后期，要熟悉真实考试的监考流程。此次练习考试不会影响你在课程中的成绩。"
         />
       </p>
       <p className="pl-4 m-md-0">
@@ -30,14 +29,14 @@ const EntrancePracticeExamInstructions = () => {
         >
           <FormattedMessage
             id="exam.EntrancePracticeExamInstructions.startExamButtonText"
-            defaultMessage="Continue to my practice exam."
+            defaultMessage="继续进行模拟考试"
           />
         </Button>
       </p>
       <p className="pl-md-4">
         <FormattedMessage
           id="exam.EntrancePracticeExamInstructions.text2"
-          defaultMessage="You will be guided through steps to set up online proctoring software and verify your identity."
+          defaultMessage="我们将指导您完成设置在线监考软件并验证您的身份的步骤。"
         />
       </p>
     </>

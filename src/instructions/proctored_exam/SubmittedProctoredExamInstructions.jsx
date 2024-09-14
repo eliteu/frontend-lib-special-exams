@@ -6,21 +6,20 @@ const SubmittedProctoredExamInstructions = () => (
     <h3 className="h3" data-testid="proctored-exam-instructions-title">
       <FormattedMessage
         id="exam.SubmittedProctoredExamInstructions.title"
-        defaultMessage="You have submitted this proctored exam for review"
+        defaultMessage="您已提交此监考考试至审核"
       />
     </h3>
     <ul>
       <li>
         <FormattedMessage
           id="exam.SubmittedProctoredExamInstructions.list1"
-          defaultMessage="Your recorded data should now be uploaded for review."
+          defaultMessage="您记录的数据现在应该上传以供审核。"
         />
         <ul>
           <li>
             <FormattedMessage
               id="exam.SubmittedProctoredExamInstructions.list2"
-              defaultMessage={'If the proctoring software window is still open, close it now and '
-              + 'confirm that you want to quit the application.'}
+              defaultMessage="如果监考软件窗口仍然打开，请立即关闭它并确认您要退出该应用程序。"
             />
           </li>
         </ul>
@@ -28,8 +27,7 @@ const SubmittedProctoredExamInstructions = () => (
       <li>
         <FormattedMessage
           id="exam.SubmittedProctoredExamInstructions.list3"
-          defaultMessage={'Proctoring results are usually available within 5 business days '
-          + 'after you submit your exam.'}
+          defaultMessage="监考结果通常会在您提交考试后 5 个工作日内提供。"
         />
 
       </li>
@@ -37,8 +35,7 @@ const SubmittedProctoredExamInstructions = () => (
     <p className="mb-0">
       <FormattedMessage
         id="exam.SubmittedProctoredExamInstructions.text"
-        defaultMessage={'If you have questions about the status of your proctored exam results, '
-        + 'contact platform Support.'}
+        defaultMessage="如果您对的监考考试结果有任何问题，请联系技术支持帮助。"
       />
     </p>
   </div>

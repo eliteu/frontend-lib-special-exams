@@ -17,7 +17,7 @@ const Footer = () => {
         >
           <FormattedMessage
             id="exam.startExamInstructions.footerButton"
-            defaultMessage="About Proctored Exams"
+            defaultMessage="关于监考考试"
           />
         </Button>
       )}
