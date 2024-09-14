@@ -21,7 +21,7 @@ const SkipProctoredExamInstruction = ({ cancelSkipProctoredExam }) => {
         <p>
           <FormattedMessage
             id="exam.skipProctoredExamInstructions.text2"
-            defaultMessage={'如果您在没有监考的情况下参加此考试，您将没有资格获得课程学分或 MicroMasters 证书（如果其中任何一项适用于本课程）。'}
+            defaultMessage="如果您在没有监考的情况下参加此考试，您将没有资格获得课程学分或 MicroMasters 证书（如果其中任何一项适用于本课程）。"
           />
         </p>
         <p className="mb-0">

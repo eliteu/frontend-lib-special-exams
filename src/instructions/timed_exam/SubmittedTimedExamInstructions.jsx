@@ -17,7 +17,7 @@ const SubmittedTimedExamInstructions = () => {
         : (
           <FormattedMessage
             id="exam.submittedExamInstructions.title"
-            defaultMessage="您的定时考试已提交。"
+            defaultMessage="您的计时考试已提交。"
           />
         )}
     </h3>

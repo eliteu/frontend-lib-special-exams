@@ -36,13 +36,13 @@ const SubmitProctoredExamInstructions = () => {
         <li>
           <FormattedMessage
             id="exam.SubmitProctoredExamInstructions.warningText1"
-            defaultMessage='在提交考试之前，请确保您已为每个答案选择“提交”。'
+            defaultMessage="在提交考试之前，请确保您已为每个答案选择「提交」。"
           />
         </li>
         <li>
           <FormattedMessage
             id="exam.SubmitProctoredExamInstructions.warningText2"
-            defaultMessage={'单击“是，结束我的监考考试”后，考试将关闭，并且您的监考课程将提交以供审核。'}
+            defaultMessage="单击「是，结束我的监考考试」后，考试将关闭，并且您的监考课程将提交以供审核。"
           />
         </li>
       </ul>
@@ -50,7 +50,7 @@ const SubmitProctoredExamInstructions = () => {
         <p data-testid="submit-onboarding-exam">
           <FormattedMessage
             id="exam.SubmitOnboardingExamInstructions.text"
-            defaultMessage={'您正在参加 "{examName}" 作为入职考试。您必须单击“是，结束我的监考考试”并提交您的监考课程才能完成入职。'}
+            defaultMessage={'您正在参加 "{examName}" 作为入职考试。您必须单击「是的，结束我的监考考试」并提交您的监考课程才能完成入职。'}
             values={{ examName }}
           />
         </p>

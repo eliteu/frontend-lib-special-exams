@@ -27,7 +27,7 @@ const RejectedOnboardingExamInstructions = () => {
           </MailtoLink>
           <FormattedMessage
             id="exam.RejectedOnboardingExamInstructions.text2"
-            defaultMessage=' 如果您有疑问。您可以通过单击“重试我的考试”来重新参加此入职考试。'
+            defaultMessage="。如果您有疑问，您可以通过单击「重试我的考试」来重新参加此入职考试。"
           />
         </p>
       )}

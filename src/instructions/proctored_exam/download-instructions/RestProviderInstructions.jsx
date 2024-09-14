@@ -23,7 +23,7 @@ const RestProviderInstructions = ({
       <p>
         <FormattedMessage
           id="exam.DownloadSoftwareProctoredExamInstructions.supportText"
-          defaultMessage={'如果您有与监考相关的问题，您可以通过发送电子邮件至 {provider_tech_support_email} 或致电 {provider_tech_support_phone } 联系 {provider_name} 技术支持。'}
+          defaultMessage="如果您有与监考相关的问题，您可以通过发送电子邮件至 {provider_tech_support_email} 或致电 {provider_tech_support_phone } 联系 {provider_name} 技术支持。"
           values={{
             supportEmail,
             supportPhone,

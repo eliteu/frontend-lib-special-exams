@@ -1,6 +1,6 @@
 {
   "name": "@eliteu/frontend-lib-special-exams",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Special exams lib",
   "main": "dist/index.js",
   "release": {

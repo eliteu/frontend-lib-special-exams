@@ -72,7 +72,7 @@ const EntranceOnboardingExamInstructions = () => {
       )}
       {integrationSpecificEmail && (
         <p data-testid="integration-email-contact">
-           <FormattedMessage
+          <FormattedMessage
             id="exam.EntranceOnboardingExamInstructions.text6"
             defaultMessage="如果您有疑问，"
           />

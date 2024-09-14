@@ -30,7 +30,7 @@ const SubmitTimedExamInstructions = () => {
       <Button variant="primary" onClick={submitExam} className="mr-2" data-testid="end-exam-button">
         <FormattedMessage
           id="exam.submitExamInstructions.submit"
-          defaultMessage="确定提交。"
+          defaultMessage="确定提交"
         />
       </Button>
     </>

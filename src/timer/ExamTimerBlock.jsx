@@ -67,7 +67,7 @@ const ExamTimerBlock = injectIntl(({
           <div>
             <FormattedMessage
               id="exam.examTimer.text"
-              defaultMessage='You are taking "{examLink}" as {examType}.'
+              defaultMessage="你正在做的{examLink}是{examType}。"
               values={{
                 examLink: (
                   <Alert.Link href={attempt.exam_url_path}>
@@ -84,9 +84,7 @@ const ExamTimerBlock = injectIntl(({
                   <span>
                     <FormattedMessage
                       id="exam.examTimer.showLess"
-                      defaultMessage={'The timer on the right shows the time remaining in the exam. '
-                        + 'To receive credit for problems, you must select "Submit" '
-                        + 'for each problem before you select "End My Exam" '}
+                      defaultMessage="右侧的计时器显示考试剩余时间。要获得题目的分数，你必须在点击「结束考试」之前，先为每道题目选择「提交」。"
                     />
                     <Alert.Link onClick={showLess}>
                       <FormattedMessage

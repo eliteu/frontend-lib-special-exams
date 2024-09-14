@@ -13,7 +13,7 @@ const StartTimedExamInstructions = () => {
       <div className="h3" data-testid="exam-instructions-title">
         <FormattedMessage
           id="exam.startExamInstructions.title"
-          defaultMessage="子部分是一个计时考试（{examDuration}）"
+          defaultMessage="小节是一个计时考试（{examDuration}）"
           values={{ examDuration }}
         />
       </div>
@@ -30,8 +30,8 @@ const StartTimedExamInstructions = () => {
         </strong>
         <FormattedMessage
           id="exam.startExamInstructions.text3"
-          defaultMessage={'选择完成后 "我准备好开始此门限时考试了", '
-          + '您将有 {examDuration} 来完成并提交考试。'}
+          defaultMessage={'点击 "我已准备好开始此限时考试。"后，'
+          + '您将有 {examDuration}来完成并提交考试。'}
           values={{ examDuration }}
         />
       </p>

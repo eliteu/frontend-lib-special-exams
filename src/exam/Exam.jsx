@@ -99,7 +99,7 @@ const Exam = ({
         <Alert variant="info" icon={Info} data-testid="masquerade-alert">
           <FormattedMessage
             id="exam.hiddenContent"
-            defaultMessage="This exam is hidden from the learner."
+            defaultMessage="这次考试对学习者是隐藏的。"
           />
         </Alert>
       )}

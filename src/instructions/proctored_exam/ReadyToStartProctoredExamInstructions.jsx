@@ -54,13 +54,13 @@ const ReadyToStartProctoredExamInstructions = () => {
           <li>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text3"
-              defaultMessage='对于所有问题类型，您必须单击“提交”才能完成您的回答。'
+              defaultMessage="对于所有问题类型，您必须单击「提交」才能完成您的回答。"
             />
           </li>
           <li>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text4"
-              defaultMessage='如果在您单击“结束我的考试”之前时间已到，则只会对您提交的答案进行评分。'
+              defaultMessage="如果在您单击「结束我的考试」之前时间已到，则只会对您提交的答案进行评分。"
             />
           </li>
         </ul>
@@ -79,7 +79,7 @@ const ReadyToStartProctoredExamInstructions = () => {
           <strong>
             <FormattedMessage
               id="exam.ReadyToStartProctoredExamInstructions.text6"
-              defaultMessage={'如果您违反这些规则，您的考试成绩将为 0 分，并且您将没有资格获得学术课程学分。'}
+              defaultMessage="如果您违反这些规则，您的考试成绩将为 0 分，并且您将没有资格获得学术课程学分。"
             />
           </strong>
           <br />
@@ -107,7 +107,7 @@ const ReadyToStartProctoredExamInstructions = () => {
             <p>
               <FormattedMessage
                 id="exam.ReadyToStartProctoredExamInstructions.text7"
-                defaultMessage={'以下附加规则适用于本考试。这些规则优先于在线监考考试规则。'}
+                defaultMessage="以下附加规则适用于本考试。这些规则优先于在线监考考试规则。"
               />
             </p>
             <p>
