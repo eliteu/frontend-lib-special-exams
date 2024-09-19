@@ -32,7 +32,7 @@ describe('ExamTimerBlock', () => {
           time_remaining_seconds: 24,
           exam_started_poll_url: '',
           taking_as_proctored: false,
-          exam_type: 'a timed exam',
+          exam_type: '限时考试',
         },
         proctoringSettings: {},
         exam: {
@@ -113,7 +113,7 @@ describe('ExamTimerBlock', () => {
           time_remaining_seconds: 6,
           exam_started_poll_url: '',
           taking_as_proctored: false,
-          exam_type: 'a timed exam',
+          exam_type: '限时考试',
         },
         proctoringSettings: {},
         exam: {
@@ -194,7 +194,7 @@ describe('ExamTimerBlock', () => {
           time_remaining_seconds: 1,
           exam_started_poll_url: '',
           taking_as_proctored: false,
-          exam_type: 'a timed exam',
+          exam_type: '限时考试',
         },
         proctoringSettings: {},
         exam: {
@@ -249,7 +249,7 @@ describe('ExamTimerBlock', () => {
           time_remaining_seconds: 240,
           exam_started_poll_url: '',
           taking_as_proctored: false,
-          exam_type: 'a timed exam',
+          exam_type: '限时考试',
         },
         proctoringSettings: {},
         exam: {
@@ -319,7 +319,7 @@ describe('ExamTimerBlock', () => {
             time_remaining_seconds: timesToTest[timeString],
             exam_started_poll_url: '',
             taking_as_proctored: false,
-            exam_type: 'a timed exam',
+            exam_type: '限时考试',
           },
           proctoringSettings: {},
           exam: {

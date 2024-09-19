@@ -6,7 +6,7 @@ Factory.define('attempt')
     attempt_status: 'started',
     in_timed_exam: true,
     taking_as_proctored: false,
-    exam_display_name: 'a timed exam',
+    exam_display_name: '限时考试',
     exam_type: 'timed',
     exam_url_path: 'http://localhost:2000/course/course-v1:test+special+exam/block-v1:test+special+exam+type@sequential+block@abc123',
     time_remaining_seconds: 1799.9,
