@@ -1,6 +1,6 @@
 {
-  "name": "@aimaker/frontend-lib-special-exams",
-  "version": "1.0.1",
+  "name": "@eliteu/frontend-lib-special-exams",
+  "version": "1.0.0",
   "description": "Special exams lib",
   "main": "dist/index.js",
   "release": {
@@ -16,7 +16,8 @@
     "url": "git+https://github.com/edx/frontend-lib-special-exams.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "dist/"
